@@ -1,0 +1,33 @@
+alias la='ls -a'
+alias ll='ls -la'
+alias l.='ls -d .*'
+alias mkdir='mkdir -pv'
+alias ..='cd ..'
+alias h='history'
+alias vim='vi'
+alias edit='vim'
+alias svi='sudo vi'
+
+#python3 alias
+alias p3='python3'
+
+#youtube-dl for making video's into mp3 + nice title
+alias yt="youtube-dl --extract-audio --audio-format mp3 -o '%(title)s.%(ext)s'"
+alias youtube="youtube-dl --extract-audio --audio-format mp3 -o '%(title)s.%(ext)s'"
+alias tube="youtube-dl --extract-audio --audio-format mp3 -o '%(title)s.%(ext)s'"
+
+#for git comments
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit -m"
+alias gpm="git push origin master"
+
+alias cdcode="cd ~/Code"
+
+alias vssh="homestead ssh"
+alias vu="homestead up"
+alias vp="homestead provision"
+alias ve="vi ~/.homestead/Homestead.yaml"
+alias veh="vis /etc/hosts"
+alias bb='ssh bone'
+alias kali='ssh kali'
